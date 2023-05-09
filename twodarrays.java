@@ -12,15 +12,8 @@ public class twodarrays {
 
             }
         }
-
-
         int x= sc.nextInt();
-
-
-
-
-
-        for(int i=0;i<rows;i++){
+         for(int i=0;i<rows;i++){
             for(int j=0;j<columns;j++ ){
                 if(matrix[i][j] == x){
                     System.out.println("x found at location (" + i + ", " + j + ")");
